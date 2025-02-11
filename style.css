@@ -1,0 +1,41 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.slide {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #1a1a1a, #1f1f1f);
+}
+
+.slide h1,
+.slide h2,
+.slide p {
+    margin: 10px 0;
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}

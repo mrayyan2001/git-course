@@ -2,7 +2,11 @@
 
 ## Definition
 
-Git branching allows developers to create independent lines of development within a repository. A branch serves as a separate workspace derived from the main codebase, enabling isolated changes, experimentation, and parallel development without disrupting the primary project.
+Branches in Git are used to work on different versions of the code simultaneously, allowing you to isolate changes and develop new features without affecting the main codebase.
+
+- **Branching** enables working on multiple features at the same time.
+- A new branch takes a copy of the current branch, allowing independent work without impacting the main branch.
+- Once the work is complete, the new branch can be merged back into the main branch.
 
 ## Advantages
 
@@ -30,6 +34,14 @@ Git branching allows developers to create independent lines of development withi
 - `git checkout -b <branch-name>` – Create and switch to a new branch
 - `git merge <branch-name>` – Merge changes from another branch
 - `git rebase <branch-name>` – Rebase changes onto another branch
+- `git merge --squash <branch-name>` – Merge changes into a single commit
+
+![alt text](image-4.png)
+
+1. Merge: Combines changes from one branch into another by creating a new commit.
+   ![alt text](image-3.png)
+2. Rebase: Moves the changes from one branch to another by replaying commits on top of the target branch.
+   ![alt text](image-5.png)
 
 ## Example Workflow
 
@@ -40,3 +52,10 @@ Imagine you are working on a large feature that requires multiple commits. Sudde
 - Continue working on your feature without interference.
 
 ![alt text](image.png)
+
+## Popular Branching Strategies
+
+- GitHub Flow: Extremely lean and simple. Only one long-running branch (`main`), and all active work is done in short-lived branches.
+  ![alt text](image-1.png)
+- Git Flow: Offers more structure and rules. Includes a `main` branch reflecting production state, a `develop` branch, feature branches, release branches, and hotfix branches.
+  ![alt text](image-2.png)

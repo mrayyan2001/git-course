@@ -68,9 +68,9 @@ If you work in a team, establish a clear convention on how to work with branches
 ### Popular Branching Strategies
 
 - GitHub Flow: Extremely lean and simple. Only one long-running branch (`main`), and all active work is done in short-lived branches.
-  - ![alt text](image-12.png)
+  - ![alt text](./imgs/image-12.png)
 - Git Flow: Offers more structure and rules. Includes a `main` branch reflecting production state, a `develop` branch, feature branches, release branches, and hotfix branches.
-  - ![alt text](image-13.png)
+  - ![alt text](./imgs/image-13.png)
 
 ## Pull Requests
 

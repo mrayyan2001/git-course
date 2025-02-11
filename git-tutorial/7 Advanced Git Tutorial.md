@@ -16,7 +16,7 @@
 
 ## Cherry-Pick
 
-![alt text](image-22.png)
+![alt text](./imgs/image-22.png)
 
 Suppose you accidentally committed on the master branch instead of the feature/newsletter branch.
 
@@ -30,7 +30,7 @@ Suppose you accidentally committed on the master branch instead of the feature/n
 
 The reflog is Git's diary, logging every movement of the HEAD pointer. It's invaluable for undoing mistakes.
 
-![alt text](image-23.png)
+![alt text](./imgs/image-23.png)
 
 1. `git reset --hard <commit-hash>` to go back to a previous commit. or `git reset --hard HEAD~1` to go back one commit.
 2. `git reflog` to see the history of the HEAD pointer.

@@ -1,3 +1,0 @@
-# Scenarios
-
-## Scenario 1:

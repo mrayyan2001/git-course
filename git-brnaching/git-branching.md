@@ -23,6 +23,15 @@ Branches in Git are used to work on different versions of the code simultaneousl
 4. **Experimentation**: Developers can create branches to test new ideas without impacting the stable codebase.
 5. **Code Reviews**: Teams can use branches to submit changes for review before merging into the main branch.
 
+## **Use Cases Examples**
+
+- **Feature Development** → Use a **feature branch** (e.g., `feature-login-auth`)
+- **Bug Fixes** → Use a **bugfix branch** (e.g., `bugfix-500-error`)
+- **Hotfixes** → Use a **hotfix branch** (e.g., `hotfix-payment-failure`)
+- **Experimentation** → Use an **experimental branch** (e.g., `experiment-new-ui`)
+- **Code Reviews** → Developers submit changes in a **task-based branch** for review (e.g., `task-fix-navbar`).
+- **Per Sprint** → Create a **sprint branch** to consolidate work (e.g., `sprint-12`).
+
 ## Basic Git Branch Commands
 
 - `git branch` – List all branches

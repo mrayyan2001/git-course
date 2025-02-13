@@ -12,3 +12,6 @@
 
 7. After merging the latest changes, the team member uploads their changes to the remote repository. (push)
 
+# Create a remote repository on GitHub
+
+1. O
